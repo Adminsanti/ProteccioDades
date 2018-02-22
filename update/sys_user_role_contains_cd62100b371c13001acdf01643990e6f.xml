@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="task_editor" name="task_editor">0956f6390a0a0bc50064623d5d51c556</contains>
+        <role display_value="x_udg_proteccio_da.incident_user" name="x_udg_proteccio_da.incident_user">f369333637d813001acdf01643990e41</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>adminsanti</sys_created_by>
+        <sys_created_on>2018-02-19 17:42:49</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>cd62100b371c13001acdf01643990e6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task_editor.x_udg_proteccio_da.incident_user</sys_name>
+        <sys_package display_value="Proteccio Dades" source="x_udg_proteccio_da">962877b6379813001acdf01643990e10</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Proteccio Dades">962877b6379813001acdf01643990e10</sys_scope>
+        <sys_update_name>sys_user_role_contains_cd62100b371c13001acdf01643990e6f</sys_update_name>
+        <sys_updated_by>adminsanti</sys_updated_by>
+        <sys_updated_on>2018-02-19 17:42:49</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

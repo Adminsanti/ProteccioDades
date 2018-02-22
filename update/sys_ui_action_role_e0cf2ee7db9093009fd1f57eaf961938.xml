@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>adminsanti</sys_created_by>
+        <sys_created_on>2018-02-21 18:30:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e0cf2ee7db9093009fd1f57eaf961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_udg_proteccio_da.incident_user</sys_name>
+        <sys_package display_value="Proteccio Dades" source="x_udg_proteccio_da">962877b6379813001acdf01643990e10</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Proteccio Dades">962877b6379813001acdf01643990e10</sys_scope>
+        <sys_ui_action display_value="Close Complete">0ccfaee7db9093009fd1f57eaf96198c</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_e0cf2ee7db9093009fd1f57eaf961938</sys_update_name>
+        <sys_updated_by>adminsanti</sys_updated_by>
+        <sys_updated_on>2018-02-21 18:30:43</sys_updated_on>
+        <sys_user_role display_value="x_udg_proteccio_da.incident_user" name="x_udg_proteccio_da.incident_user">f369333637d813001acdf01643990e41</sys_user_role>
+    </sys_ui_action_role>
+</record_update>
