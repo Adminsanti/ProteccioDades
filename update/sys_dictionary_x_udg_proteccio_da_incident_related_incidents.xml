@@ -31,6 +31,8 @@
         <element>related_incidents</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="">glide_list</internal_type>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
@@ -43,9 +45,9 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>u_security=true^u_dpiISEMPTY^EQ</reference_qual>
-        <reference_qual_condition table="incident">u_security=true^u_dpiISEMPTY^EQ<item endquery="false" field="u_security" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="u_dpi" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+        <reference_qual>u_security=true^ORu_dpiISNOTEMPTY^EQ</reference_qual>
+        <reference_qual_condition table="incident">u_security=true^ORu_dpiISNOTEMPTY^EQ<item endquery="false" field="u_security" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_dpi" goto="false" newquery="false" operator="ISNOTEMPTY" or="true" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
@@ -56,8 +58,8 @@
         <sys_created_by>adminsanti</sys_created_by>
         <sys_created_on>2018-02-20 16:17:44</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>d6480557dbd453009fd1f57eaf961951</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>d258b8f9db281300a55072e9bf961941</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Related Incidents</sys_name>
         <sys_package display_value="Proteccio Dades" source="x_udg_proteccio_da">962877b6379813001acdf01643990e10</sys_package>
         <sys_policy/>
@@ -65,7 +67,7 @@
         <sys_scope display_value="Proteccio Dades">962877b6379813001acdf01643990e10</sys_scope>
         <sys_update_name>sys_dictionary_x_udg_proteccio_da_incident_related_incidents</sys_update_name>
         <sys_updated_by>adminsanti</sys_updated_by>
-        <sys_updated_on>2018-02-22 09:48:33</sys_updated_on>
+        <sys_updated_on>2018-03-21 17:46:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

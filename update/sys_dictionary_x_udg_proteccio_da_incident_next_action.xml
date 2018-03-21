@@ -31,6 +31,8 @@
         <element>next_action</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>160</max_length>
@@ -53,7 +55,7 @@
         <sys_created_by>adminsanti</sys_created_by>
         <sys_created_on>2018-02-21 18:02:00</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>c2486a63db9093009fd1f57eaf9619e4</sys_id>
+        <sys_id>4e58b8f9db281300a55072e9bf96191c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Next action</sys_name>
         <sys_package display_value="Proteccio Dades" source="x_udg_proteccio_da">962877b6379813001acdf01643990e10</sys_package>
@@ -61,8 +63,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Proteccio Dades">962877b6379813001acdf01643990e10</sys_scope>
         <sys_update_name>sys_dictionary_x_udg_proteccio_da_incident_next_action</sys_update_name>
-        <sys_updated_by>adminsanti</sys_updated_by>
-        <sys_updated_on>2018-02-21 18:02:00</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-03-14 14:53:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
